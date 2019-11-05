@@ -31,3 +31,7 @@ function count_splits(amount, coins)
 
 	count
 end
+
+
+println("# of ways to pay £2:")
+println(count_splits(200, [200, 100, 50, 20, 10, 5, 2, 1]))

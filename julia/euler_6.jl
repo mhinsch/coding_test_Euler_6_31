@@ -21,7 +21,7 @@ function diff_sqs_ssq_alt(n)
 end
 			
 
-
+println("sqared sum - sum of squares (100):")
 println("standard method: ", diff_sqs_ssq(100))
 println("alternative method: ", diff_sqs_ssq_alt(100))
 
