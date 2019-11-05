@@ -1,6 +1,6 @@
 
 # square each number, then sum up
-sum_squares(n) = reduce(x->x^2, +, 1:n)
+sum_squares(n) = mapreduce(x->x^2, +, 1:n)
 
 # sum up, the square
 squared_sum(n) = reduce(+, 1:n)^2
@@ -19,5 +19,5 @@ end
 			
 
 
-println(diff_ssq_sqs(100))
+println(diff_sqs_ssq(100))
 
