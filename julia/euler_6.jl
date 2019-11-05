@@ -1,6 +1,6 @@
 
 # square each number, then sum up
-sum_squares(n) = sum(1:n .^ 2)
+sum_squares(n) = mapreduce(x->x^2, +, 1:n)
 
 # sum up, then square
 squared_sum(n) = sum(1:n)^2
