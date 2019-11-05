@@ -1,4 +1,4 @@
-diff_sqs_ssq <- function(n){
+diff.sqs.ssq <- function(n){
 	x <- 1:n
 	ssq <- sum(x^2)
 	sqs <- sum(x)^2
@@ -7,4 +7,4 @@ diff_sqs_ssq <- function(n){
 }
 
 print("sqared sum - sum of squares (100):")
-print(diff_sqs_ssq(100))
+print(diff.sqs.ssq(100))
